@@ -1,0 +1,25 @@
+{
+    "name": "appzz/ftp",
+    "description": "Simple ftp wrapper",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "filesystem",
+        "helpers"
+    ],
+    "homepage": "https://www.bitbucket.org/a-pp-zz/filesystem.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CoolSwitcher",
+            "email": "ds@appzz.pw",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"AppZz\\Filesystem\\": "src/"}
+    }
+}
